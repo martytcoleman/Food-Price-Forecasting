@@ -1,0 +1,6 @@
+# Temporary extracted files
+temp_extract/
+
+# Large CSV file
+temp_extract/Global WFP Food Prices.csv
+
