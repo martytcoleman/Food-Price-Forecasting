@@ -2,7 +2,7 @@
 
 **Project:** LSTM-based Time Series Forecasting for Global Food Prices  
 **Course:** Dartmouth COSC 16 / Computational Neuroscience  
-**Date:** Fall 2024  
+**Date:** Fall 2025  
 **Team:** Martin Coleman, Atul Venkatesh, Jennifer Lee, Shayan Yasir
 
 ---
