@@ -48,11 +48,11 @@ We created features including:
 |-------|------|----------|--------------------------|
 | Naïve | 0.0664 | 6.72 | 0.00 |
 | ARIMA | **0.0598** | 7.01 | **77.98** |
-| Basic LSTM | 0.0744 | 8.47 | 73.21 |
+| Basic LSTM | 0.0658 | 6.19 | 64.88 |
 
 **Key Findings:**
 - ARIMA actually performed best overall (lowest RMSE and highest directional accuracy)
-- LSTM did well on directional accuracy (73%) but had higher RMSE than ARIMA
+- LSTM did well on directional accuracy (65%) but had higher RMSE than ARIMA
 - The small dataset (only 25 training samples) probably limited the LSTM's ability to learn complex patterns
 - All models struggled with wheat price prediction compared to rice and maize
 
@@ -96,12 +96,13 @@ If we had more time/data:
 - Include external variables (weather, GDP, etc.)
 - Try hybrid models (combine LSTM with ARIMA)
 - Implement prediction intervals/uncertainty quantification
+- Identify unusual price spikes or data quality issues automatically
 
 ---
 
 ## Files
 
-- `food_price_forecasting1.ipynb` - Main analysis notebook
+- `food_price_forecasting.ipynb` - Main analysis notebook
 - `kaggle-dataset-globalfoodprices.zip` - Source dataset
 - `README.md` - This file
 
